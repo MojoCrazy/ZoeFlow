@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 3%;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+/*Landing*/
+
+#landing {
+    background-color: #76DBD1;    
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.heading {
+    padding: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 5em;
+    color: azure;
+}
+
+.flower-stand {
+    max-width: 500px;
+}
+
+/*Flowers*/
+
+#flowers {
+    background-color: #FBE555;
+    text-align: center;
+}
+
+.carousel-image {
+    margin: 0 auto;
+    max-height: 400px;
+}
+
+/*Charities*/
+
+#charities {
+   text-align: center;
+    padding-bottom: 5%;
+    width: 90%;
+    margin: auto;
+}
+
+/*Contact*/
+
+#contact {
+    background-color: #A0CC78;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+@media screen (max-width:600px) {
+    iframe {
+        max-height: 300px;
+    }
+    .carousel-image {
+        max-height: 200px;
+    }
+}
